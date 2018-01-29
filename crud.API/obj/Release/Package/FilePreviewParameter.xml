@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="crudAPIService" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\P\\CODE\\ng2CRUD\\crudSolution\\crud\.API\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\P\\CODE\\ng2CRUD\\crudSolution\\crud\.API\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="CRUDDBEntities-Web.config Connection String" description="" value="metadata=res://*/crudModel.csdl|res://*/crudModel.ssdl|res://*/crudModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=localhost\sqlexpress;initial catalog=CRUDDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\P\\CODE\\ng2CRUD\\crudSolution\\crud\.API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CRUDDBEntities']/@connectionString" />
+  </parameter>
+</parameters>

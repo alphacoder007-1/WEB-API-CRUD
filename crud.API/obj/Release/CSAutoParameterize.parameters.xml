@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="CRUDDBEntities-Web.config Connection String" description="CRUDDBEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/crudModel.csdl|res://*/crudModel.ssdl|res://*/crudModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;&#xD;&#xA;      data source=tcp:crudserver.database.windows.net,1433;Initial Catalog=CRUDDB;Persist Security Info=False;User ID=go2mahesh;Password=Purple1!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\P\\CODE\\ng2CRUD\\crudSolution\\crud\.API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CRUDDBEntities']/@connectionString" />
+  </parameter>
+</parameters>
